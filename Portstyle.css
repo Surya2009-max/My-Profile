@@ -1,0 +1,47 @@
+html{scroll-behavior: smooth}
+Body{text-align: center;
+margin: auto}
+
+#welcome{background: linear-gradient(#60ebeb 0%,#27ae60 100%);
+text-align: center;
+z-index: 9;
+height: 700px;}
+
+
+
+img{border-radius:50%;
+width:175px;
+border: dotted;
+margin-top: 75px;}
+
+#bio{text-align: center;
+padding: 55px;
+font-size: 20px;
+font-weight: bold;}
+
+
+.menu{list-style: none;
+position: absolute;
+font-family: sans-serif;
+top: 10px;
+cursor:pointer;
+right: 30px;
+z-index: 10;}
+
+.list{float: left;
+padding: 10px;
+font-family: cursive;
+font-size: 20px;
+color: darkblue;
+}
+
+.list:hover{background: linear-gradient(cyan,lightgreen);}
+
+h1,h2{font-family: 'Pacifico', cursive;}
+
+a{text-decoration: none;
+font-family: sans-serif;
+}
+#article:hover{color: darkred;
+background:linear-gradient(cyan;lightgreen);}
+.Heading{text-decoration: underline;}
